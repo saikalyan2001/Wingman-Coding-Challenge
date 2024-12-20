@@ -55,7 +55,7 @@ const Summary = () => {
             type="increase"
             icon={<PiCoinsFill />}
           />
-          <CustomCard
+          <Customcard
             title="AVG ORDER VALUE"
             value="$240"
             increase="15%"
