@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { IoMdClose } from "react-icons/io";
 
-const ChatModal = ({ onClose }) => {
+const Chatmodal = ({ onClose }) => {
   const [messages, setMessages] = useState([
     { sender: "bot", text: "Hello! How can I assist you today?" },
   ]);
@@ -93,4 +93,4 @@ const ChatModal = ({ onClose }) => {
   );
 };
 
-export default ChatModal;
+export default Chatmodal;

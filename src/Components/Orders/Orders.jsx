@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { MdArrowOutward } from "react-icons/md";
 import ChatModal from "./chatModal";
 
-const Table = () => {
+const Orders = () => {
   const [ordersData, setOrdersData] = useState([]);
   const [sortedData, setSortedData] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
@@ -209,4 +209,4 @@ const Table = () => {
   );
 };
 
-export default Table;
+export default Orders;

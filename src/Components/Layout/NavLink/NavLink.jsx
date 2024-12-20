@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, useLocation } from "react-router";
 
-const NavLink = ({ href, icon, label }) => {
+const Navlink = ({ href, icon, label }) => {
   const location = useLocation();
   const isActive = location.pathname === href;
 
@@ -18,4 +18,4 @@ const NavLink = ({ href, icon, label }) => {
   );
 };
 
-export default NavLink;
+export default Navlink;

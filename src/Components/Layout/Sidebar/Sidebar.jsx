@@ -1,9 +1,8 @@
 import React from "react";
 import { GoHomeFill } from "react-icons/go";
 import { BiSolidMessageRounded } from "react-icons/bi";
-import { MdGroups } from "react-icons/md";
 import { IoIosSettings } from "react-icons/io";
-import CustomIcon from "../../CustomIcon/CustomIcon";
+import CustomIcon from "../../Customicon/Customicon";
 
 const Sidebar = () => {
   const Icons = [

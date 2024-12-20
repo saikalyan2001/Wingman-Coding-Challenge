@@ -1,5 +1,5 @@
 import React from "react";
-import CustomCard from "../../Components/CustomCard/CustomCard";
+import Customcard from "../../Components/Customcard/Customcard";
 import { BiSolidMessageRoundedDetail } from "react-icons/bi";
 import { BsFillTagFill } from "react-icons/bs";
 import { GrFormCheckmark } from "react-icons/gr";
@@ -10,7 +10,7 @@ import Orders from "../../Components/Orders/Orders";
 import ConsultationChart from "../../Components/Charts/Chart/Chart";
 import CustomBarChart from "../../Components/Charts/Barchart/Barchart";
 import Forecast from "../../Components/Charts/Forecast/Forecast";
-import Dropdownmenu from "../../Components/DropdownMenu/DropdownMenu";
+import Dropdownmenu from "../../Components/Dropdownmenu/DropdownMenu";
 
 const Summary = () => {
   return (
@@ -27,28 +27,28 @@ const Summary = () => {
         </div>
 
         <div className="grid lg:grid-cols-3 gap-y-6 gap-x-20 lg:gap-x-4 justify-items-center">
-          <CustomCard
+          <Customcard
             title="CONSULTATIONS"
             value="24"
             increase="15%"
             type="increase"
             icon={<BiSolidMessageRoundedDetail />}
           />
-          <CustomCard
+          <Customcard
             title="ORDERS PLACED"
             value="12"
             decrease="15%"
             type="decrease"
             icon={<BsFillTagFill />}
           />
-          <CustomCard
+          <Customcard
             title="CONVERSION"
             value="50%"
             decrease="15%"
             type="decrease"
             icon={<GrFormCheckmark />}
           />
-          <CustomCard
+          <Customcard
             title="TOTAL SALES VALUE"
             value="$2,400"
             increase="15%"
@@ -62,7 +62,7 @@ const Summary = () => {
             type="increase"
             icon={<PiCoinFill />}
           />
-          <CustomCard
+          <Customcard
             title="COMMISSION PAID"
             value="$240"
             increase="15%"

@@ -23,7 +23,7 @@ const data = [
   { day: "Sun", incoming: 58, answered: 42, experts: 15.6 },
 ];
 
-const ConsultationChart = () => {
+const Chart = () => {
   return (
     <ResponsiveContainer
       width="100%"
@@ -106,4 +106,4 @@ const ConsultationChart = () => {
   );
 };
 
-export default ConsultationChart;
+export default Chart;

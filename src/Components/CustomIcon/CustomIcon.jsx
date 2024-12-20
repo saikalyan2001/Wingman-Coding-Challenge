@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, useLocation } from "react-router";
 
-const CustomIcon = ({ href, icon }) => {
+const Customicon = ({ href, icon }) => {
   const location = useLocation();
   const isActive = location.pathname === href;
 
@@ -17,4 +17,4 @@ const CustomIcon = ({ href, icon }) => {
   );
 };
 
-export default CustomIcon;
+export default Customicon;

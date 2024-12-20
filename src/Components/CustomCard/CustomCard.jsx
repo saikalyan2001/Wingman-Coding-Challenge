@@ -2,7 +2,7 @@ import React from "react";
 import { FaArrowTrendUp } from "react-icons/fa6";
 import { FaArrowTrendDown } from "react-icons/fa6";
 
-const CustomCard = ({ title, value, type, icon, increase, decrease }) => {
+const Customcard = ({ title, value, type, icon, increase, decrease }) => {
   return (
     <div className="bg-white rounded-3xl shadow w-[100%] max-w-[100%]  lg:max-w-[100%] py-8 px-6 space-y-3">
       <div className="flex gap-2 items-center text-text2 font-semibold text-xs lg:text-sm">
@@ -22,4 +22,4 @@ const CustomCard = ({ title, value, type, icon, increase, decrease }) => {
   );
 };
 
-export default CustomCard;
+export default Customcard;
