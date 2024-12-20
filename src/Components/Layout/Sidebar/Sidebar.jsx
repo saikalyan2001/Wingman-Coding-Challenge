@@ -31,7 +31,7 @@ const Sidebar = () => {
         </div>
 
         <div className="mb-4 cursor-pointer">
-          <CustomIcon icon={<IoIosSettings />} />
+          <Customicon icon={<IoIosSettings />} />
         </div>
       </div>
     </div>
