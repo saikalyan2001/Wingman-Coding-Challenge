@@ -20,8 +20,6 @@ const Table = () => {
       });
   }, []);
 
-  console.log("img", ordersData);
-
   const totalPages = Math.ceil(sortedData.length / itemsPerPage);
 
   const startIndex = (currentPage - 1) * itemsPerPage;
