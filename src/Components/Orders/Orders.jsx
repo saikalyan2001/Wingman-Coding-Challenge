@@ -20,6 +20,8 @@ const Table = () => {
       });
   }, []);
 
+  console.log("img", ordersData);
+
   const totalPages = Math.ceil(sortedData.length / itemsPerPage);
 
   const startIndex = (currentPage - 1) * itemsPerPage;
@@ -139,7 +141,14 @@ const Table = () => {
             <tbody>
               {currentItems.map((item, index) => (
                 <tr key={index} className="text-xs sm:text-sm text-text1">
-                  <td className="px-2 sm:px-4 py-2">{item.productName}</td>
+                  <td className="px-2 sm:px-4 py-2 flex flex-col md:flex-row gap-2 items-center sm:gap-4">
+                    <img
+                      src={item.image}
+                      alt="buds"
+                      className="w-10 h-10 rounded"
+                    />
+                    {item.productName}
+                  </td>
                   <td className="px-2 sm:px-4 py-2">
                     {item.date}
                     <br />
