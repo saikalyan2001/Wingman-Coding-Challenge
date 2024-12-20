@@ -50,10 +50,10 @@ const ChatModal = ({ onClose }) => {
     <div className="fixed inset-0 bg-gray-900 bg-opacity-50 flex justify-center items-center z-50">
       <div className="bg-white w-3/4 max-w-lg p-5 rounded-lg shadow-lg flex flex-col">
         <div className="flex justify-between items-center mb-4">
-          <h2 className="text-xl font-semibold">Chat</h2>
+          <h2 className="text-xl text-text1 font-semibold">Chat</h2>
           <button
             onClick={onClose}
-            className="text-red-500 font-bold text-lg hover:text-red-700"
+            className="text-text4 font-bold text-lg hover:text-red-700"
           >
             <IoMdClose />
           </button>
@@ -64,8 +64,8 @@ const ChatModal = ({ onClose }) => {
               key={index}
               className={`my-2 p-2 rounded-md ${
                 msg.sender === "user"
-                  ? "bg-blue-500 text-white self-end"
-                  : "bg-gray-200 text-gray-800 self-start"
+                  ? "bg-bg1 text-white self-end"
+                  : "bg-gray-200 text-text2 self-start"
               }`}
             >
               {msg.text}
@@ -79,11 +79,11 @@ const ChatModal = ({ onClose }) => {
             value={input}
             onChange={(e) => setInput(e.target.value)}
             placeholder="Type a message..."
-            className="flex-grow border border-gray-300 rounded p-2 mr-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="flex-grow border border-gray-300 rounded p-2 mr-2 focus:outline-none focus:ring-2 focus:ring-bg1"
           />
           <button
             onClick={handleSendMessage}
-            className="bg-blue-500 text-white rounded px-4 py-2 hover:bg-blue-600"
+            className="bg-bg1 text-white rounded px-4 py-2"
           >
             Send
           </button>

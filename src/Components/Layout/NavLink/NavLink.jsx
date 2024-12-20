@@ -8,8 +8,8 @@ const NavLink = ({ href, icon, label }) => {
   return (
     <Link
       to={href}
-      className={`flex gap-1 lg:gap-2 items-center rounded-full p-3 font-semibold ${
-        isActive ? "bg-green-200" : "text-gray-500"
+      className={`flex gap-1 sm:gap-2 items-center rounded-full p-3 text-sm sm:text-xl  font-semibold ${
+        isActive ? "bg-[#CCFBEF] text-text1" : "text-text2"
       }`}
     >
       {icon}

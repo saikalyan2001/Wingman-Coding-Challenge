@@ -17,12 +17,12 @@ const DropdownMenu = () => {
     <div className="relative inline-block text-left">
       <button
         type="button"
-        className="inline-flex justify-center  lg:w-28 px-3 py-2 rounded-md border border-gray-300 bg-white text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+        className="inline-flex justify-center  lg:w-28 px-3 py-2 rounded-md border border-gray-300 bg-white text-text1 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
         onClick={toggleMenu}
       >
         <span>{selectedOption}</span>
         <svg
-          className="ml-2 -mr-1 h-5 w-5 text-gray-400"
+          className="ml-2 -mr-1 h-5 w-5 text-text1"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 20 20"
           fill="currentColor"
@@ -41,21 +41,21 @@ const DropdownMenu = () => {
           <div className="py-1">
             <a
               href="#"
-              className="text-gray-700 block px-4 py-2 text-sm"
+              className="text-text1 block px-4 py-2 text-sm"
               onClick={() => handleSelect("7 days")}
             >
               7 days
             </a>
             <a
               href="#"
-              className="text-gray-700 block px-4 py-2 text-sm"
+              className="text-text1 block px-4 py-2 text-sm"
               onClick={() => handleSelect("30 days")}
             >
               30 days
             </a>
             <a
               href="#"
-              className="text-gray-700 block px-4 py-2 text-sm"
+              className="text-text1 block px-4 py-2 text-sm"
               onClick={() => handleSelect("45 days")}
             >
               45 days

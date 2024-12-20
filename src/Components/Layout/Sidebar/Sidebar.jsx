@@ -8,16 +8,16 @@ import CustomIcon from "../../CustomIcon/CustomIcon";
 const Sidebar = () => {
   const Icons = [
     { href: "/", icon: <GoHomeFill /> },
-    { href: "/chat", icon: <BiSolidMessageRounded /> },
+    { href: "/chats", icon: <BiSolidMessageRounded /> },
     { href: "", icon: <MdGroups /> },
   ];
 
   return (
     <div>
-      <div className="h-full w-10 lg:w-16 bg-bg1 fixed left-0 top-0 text-white text-xl flex flex-col justify-between items-center">
+      <div className="h-full w-10 lg:w-16 bg-bg1 border-r border-[#DCDFE4] fixed left-0 top-0 text-white text-xl flex flex-col justify-between items-center">
         <div className="flex flex-col gap-8 items-center mt-4">
-          <div className="text-white">t</div>
-          <div className="w-7 bg-green-900 h-[1px]"></div>
+          <div className="text-white font-bold lg:text-2xl">t</div>
+          <div className="w-7 bg-[#134E48] h-[1px]"></div>
           <div className="flex flex-col gap-4 items-center text-sm lg:text-xl">
             {Icons.map((icon) => (
               <CustomIcon key={icon.href} {...icon} />

@@ -8,7 +8,9 @@ const CustomIcon = ({ href, icon }) => {
   return (
     <Link
       to={href}
-      className={`p-2 rounded-lg ${isActive ? "text-bg1 bg-white" : ""}`}
+      className={`p-2 rounded-lg ${
+        isActive ? "text-[#115E56] bg-white" : "text-[#CCFBEF]"
+      }`}
     >
       {icon}
     </Link>

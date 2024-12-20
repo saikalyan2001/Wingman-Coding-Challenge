@@ -1,6 +1,5 @@
 import React from "react";
 import CustomCard from "../../Components/CustomCard/CustomCard";
-import DropdownMenu from "../../Components/DropDownMenu/DropDownMenu";
 import { BiSolidMessageRoundedDetail } from "react-icons/bi";
 import { BsFillTagFill } from "react-icons/bs";
 import { GrFormCheckmark } from "react-icons/gr";
@@ -11,13 +10,14 @@ import Orders from "../../Components/Orders/Orders";
 import ConsultationChart from "../../Components/Charts/Chart/Chart";
 import CustomBarChart from "../../Components/Charts/Barchart/Barchart";
 import Forecast from "../../Components/Charts/Forecast/Forecast";
+import DropdownMenu from "../../Components/DropDownMenu/DropDownMenu";
 
 const Summary = () => {
   return (
-    <div className="ml-12 mr-2  lg:ml-20 lg:mr-4 ">
-      <div className="bg-white border border-gray-200  rounded-xl mt-20 p-6  w-[100%] max-w-[100%] lg:max-w-[100%]">
+    <div className="ml-12 mr-2  lg:ml-20 lg:mr-4 py-4 sm:py-10">
+      <div className="bg-white border border-gray-200  rounded-xl  p-[32px_24px] w-[100%] max-w-[100%] lg:max-w-[100%] ">
         <div className="flex justify-between items-center mb-10">
-          <h1 className="text-sm lg:text-3xl font-semibold opacity-80">
+          <h1 className="text-sm lg:text-3xl text-text1 font-semibold opacity-80">
             At a glance
           </h1>
 
@@ -72,7 +72,7 @@ const Summary = () => {
         </div>
 
         <div className="mt-20">
-          <h1 className="text-2xl sm:text-3xl lg:text-3xl font-semibold opacity-80">
+          <h1 className="text-2xl sm:text-3xl lg:text-3xl text-text1 font-semibold opacity-80">
             Insights
           </h1>
           <div className="flex flex-col lg:flex-row gap-6 mt-20">

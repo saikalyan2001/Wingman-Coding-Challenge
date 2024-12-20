@@ -39,15 +39,15 @@ const Chat = () => {
   };
 
   return (
-    <div className="flex flex-col h-screen bg-gray-100 p-6 sm:p-20 mt-20 ml-14 mr-4 lg:ml-20 lg:mr-4">
+    <div className="flex flex-col h-screen bg-gray-100 p-6 sm:p-20 mt-10 ml-14 mr-4 lg:ml-20 lg:mr-4 rounded-3xl">
       <div className="flex-grow overflow-y-auto bg-white sm:p-4 rounded shadow-md">
         {messages.map((msg, index) => (
           <div
             key={index}
             className={`mx-10 my-10 sm:my-2 p-2  rounded-md ${
               msg.sender === "user"
-                ? "bg-blue-500 text-white self-end"
-                : "bg-gray-200 text-gray-800 self-start"
+                ? "bg-bg1 text-white self-end"
+                : "bg-gray-200 text-text2 self-start"
             }`}
           >
             {msg.text}
@@ -60,11 +60,11 @@ const Chat = () => {
           value={input}
           onChange={(e) => setInput(e.target.value)}
           placeholder="Type a message..."
-          className="flex-grow border border-gray-300 rounded p-2 mr-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="flex-grow border border-gray-300 rounded p-2 mr-2 focus:outline-none focus:ring-2 focus:ring-bg1"
         />
         <button
           onClick={handleSendMessage}
-          className="bg-blue-500 text-white rounded px-4 py-2 hover:bg-blue-600"
+          className="bg-bg1 text-white rounded px-4 py-2"
         >
           Send
         </button>

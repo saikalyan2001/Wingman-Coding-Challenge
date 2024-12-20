@@ -1,12 +1,12 @@
 import React from "react";
-import { BiSolidMessageRoundedDetail } from "react-icons/bi";
 import { FaArrowTrendUp } from "react-icons/fa6";
+import { BiSolidMessageRounded } from "react-icons/bi";
 
 const Forecast = () => {
   return (
-    <div className="bg-green-800 rounded-3xl px-4 py-8 text-white space-y-6">
+    <div className="bg-gradient-to-b from-[#15B79F] to-[#0E9382] rounded-3xl px-4 py-8 text-white space-y-6">
       <div className="flex gap-2 items-center text-sm">
-        <BiSolidMessageRoundedDetail />
+        <BiSolidMessageRounded />
         FORECASTS
       </div>
       <div className="flex gap-6">
