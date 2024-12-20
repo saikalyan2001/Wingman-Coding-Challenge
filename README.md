@@ -1,6 +1,6 @@
 # Wingman Frontend Coding Challenge
 
-## This project is a solution for the Wingman Frontend Coding Assignment. It was built using React and adheres to pixel-perfect design principles based on the provided Figma design
+### This project is a solution for the Wingman Frontend Coding Assignment. It was built using React and adheres to pixel-perfect design principles based on the provided Figma design
 
 * Features
   - Responsive Design: The UI is fully responsive and works seamlessly across different screen sizes.
