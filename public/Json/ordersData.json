@@ -1,0 +1,21 @@
+[
+  { "productName": "earbuds", "date": "24 Apr '2024", "timeOfDay": "10:24 AM", "timeSpent": "2h 5m", "orderValue": "$120.21", "commission": "$55", "chat": "View Chat", "image": "images/earbuds.jpg" },
+  { "productName": "smartwatch", "date": "23 Apr '2024", "timeOfDay": "9:15 AM", "timeSpent": "1h 45m", "orderValue": "$180.99", "commission": "$70", "chat": "View Chat", "image": "images/smartwatch.jpg" },
+  { "productName": "keyboard", "date": "22 Apr '2024", "timeOfDay": "2:30 PM", "timeSpent": "3h 10m", "orderValue": "$75.00", "commission": "$20", "chat": "View Chat", "image": "images/keyboard.jpg" },
+  { "productName": "mouse", "date": "21 Apr '2024", "timeOfDay": "11:50 AM", "timeSpent": "3hr 50m", "orderValue": "$25.50", "commission": "$10", "chat": "View Chat", "image": "images/mouse.jpg" },
+  { "productName": "monitor", "date": "20 Apr '2024", "timeOfDay": "5:45 PM", "timeSpent": "4h 15m", "orderValue": "$300.00", "commission": "$85", "chat": "View Chat", "image": "images/monitor.jpg" },
+  { "productName": "webcam", "date": "18 Apr '2024", "timeOfDay": "10:10 AM", "timeSpent": "2h 58m", "orderValue": "$60.00", "commission": "$15", "chat": "View Chat", "image": "images/webcam.jpg" },
+  { "productName": "gaming chair", "date": "17 Apr '2024", "timeOfDay": "3:20 PM", "timeSpent": "3h 40m", "orderValue": "$450.00", "commission": "$120", "chat": "View Chat", "image": "images/gaming-chair.jpg" },
+  { "productName": "headphones", "date": "16 Apr '2024", "timeOfDay": "12:15 PM", "timeSpent": "2h 25m", "orderValue": "$220.50", "commission": "$75", "chat": "View Chat", "image": "images/headphones.jpg" },
+  { "productName": "graphics card", "date": "15 Apr '2024", "timeOfDay": "1:50 PM", "timeSpent": "5h 5m", "orderValue": "$900.00", "commission": "$150", "chat": "View Chat", "image": "images/graphics-card.jpg" },
+  { "productName": "tablet", "date": "14 Apr '2024", "timeOfDay": "9:00 AM", "timeSpent": "3h 15m", "orderValue": "$400.00", "commission": "$100", "chat": "View Chat", "image": "images/tablet.jpg" },
+  { "productName": "phone case", "date": "13 Apr '2024", "timeOfDay": "4:45 PM", "timeSpent": "20m", "orderValue": "$15.00", "commission": "$5", "chat": "View Chat", "image": "images/phone-case.jpg" },
+  { "productName": "power bank", "date": "12 Apr '2024", "timeOfDay": "11:20 AM", "timeSpent": "45m", "orderValue": "$40.00", "commission": "$12", "chat": "View Chat", "image": "images/power-bank.jpg" },
+  { "productName": "fitness tracker", "date": "11 Apr '2024", "timeOfDay": "2:40 PM", "timeSpent": "2h 40m", "orderValue": "$150.00", "commission": "$40", "chat": "View Chat", "image": "images/fitness-tracker.jpg" },
+  { "productName": "printer", "date": "10 Apr '2024", "timeOfDay": "10:35 AM", "timeSpent": "3h 50m", "orderValue": "$250.00", "commission": "$60", "chat": "View Chat", "image": "images/printer.jpg" },
+  { "productName": "router", "date": "9 Apr '2024", "timeOfDay": "8:25 AM", "timeSpent": "2h 10m", "orderValue": "$120.00", "commission": "$30", "chat": "View Chat", "image": "images/router.jpg" },
+  { "productName": "desk lamp", "date": "8 Apr '2024", "timeOfDay": "3:30 PM", "timeSpent": "40m", "orderValue": "$35.00", "commission": "$10", "chat": "View Chat", "image": "images/desk-lamp.jpg" },
+  { "productName": "external hard drive", "date": "7 Apr '2024", "timeOfDay": "2:50 PM", "timeSpent": "2h 50m", "orderValue": "$150.00", "commission": "$40", "chat": "View Chat", "image": "images/external-hard-drive.jpg" },
+  { "productName": "smartphone", "date": "6 Apr '2024", "timeOfDay": "1:15 PM", "timeSpent": "5h 30m", "orderValue": "$800.00", "commission": "$170", "chat": "View Chat", "image": "images/smartphone.jpg" },
+  { "productName": "stylus pen", "date": "5 Apr '2024", "timeOfDay": "12:05 PM", "timeSpent": "30m", "orderValue": "$25.00", "commission": "$8", "chat": "View Chat", "image": "images/stylus-pen.jpg" }
+]
