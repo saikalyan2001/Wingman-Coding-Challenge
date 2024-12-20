@@ -15,8 +15,11 @@ const Sidebar = () => {
     <div>
       <div className="h-full w-10 sm:w-12 lg:w-16 bg-bg1 border-r border-[#DCDFE4] fixed left-0 top-0 text-white text-xl flex flex-col justify-between items-center">
         <div className="flex flex-col gap-8 items-center mt-4">
-          <div class="w-[30px] h-[30px] sm:w-[40px] sm:h-[40px] flex items-center justify-center bg-gradient-to-br from-[#0D5D54] to-[#3FDBCA] rounded-[10px] shadow-md">
-            <img src="/Logo.png" class="text-white font-bold w-3 lg:w-4"></img>
+          <div className="w-[30px] h-[30px] sm:w-[40px] sm:h-[40px] flex items-center justify-center bg-gradient-to-br from-[#0D5D54] to-[#3FDBCA] rounded-[10px] shadow-md">
+            <img
+              src="/Logo.png"
+              className="text-white font-bold w-3 lg:w-4"
+            ></img>
           </div>
 
           <div className=" w-4 sm:w-7 bg-[#134E48] h-[1px]"></div>
