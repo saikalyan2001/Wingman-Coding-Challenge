@@ -2,7 +2,7 @@ import React from "react";
 import { GoHomeFill } from "react-icons/go";
 import { BiSolidMessageRounded } from "react-icons/bi";
 import { IoIosSettings } from "react-icons/io";
-import CustomIcon from "../../Customicon/Customicon";
+import Customicon from "../../Customicon/Customicon";
 
 const Sidebar = () => {
   const Icons = [
@@ -24,7 +24,7 @@ const Sidebar = () => {
           <div className=" w-4 sm:w-7 bg-[#134E48] h-[1px]"></div>
           <div className="flex flex-col gap-4 items-center text-sm sm:text-base lg:text-xl">
             {Icons.map((icon) => (
-              <CustomIcon key={icon.href} {...icon} />
+              <Customicon key={icon.href} {...icon} />
             ))}
             <img src="/Community.png" alt="img" className="cursor-pointer " />
           </div>
