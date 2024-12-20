@@ -13,10 +13,18 @@ const Orders = () => {
 
   useEffect(() => {
     fetch("/Json/ordersData.json")
-      .then((response) => response.json())
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error("Failed to fetch data");
+        }
+        return response.json();
+      })
       .then((data) => {
         setOrdersData(data);
         setSortedData(data);
+      })
+      .catch((error) => {
+        setError(error.message);
       });
   }, []);
 
