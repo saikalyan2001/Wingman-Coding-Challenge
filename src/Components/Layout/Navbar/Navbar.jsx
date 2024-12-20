@@ -13,7 +13,7 @@ const Navbar = () => {
 
   return (
     <div className="bg-white border-b border-[#DCDFE4] p-6">
-      <div className="flex text-xs lg:text-sm ml-6 sm:gap-10 lg:ml-16">
+      <div className="flex items-center text-xs lg:text-sm ml-6 sm:gap-14 lg:ml-16">
         {navlinks.map((link) => (
           <NavLink key={link.href} {...link} />
         ))}

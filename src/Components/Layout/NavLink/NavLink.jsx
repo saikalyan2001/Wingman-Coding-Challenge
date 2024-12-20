@@ -8,7 +8,7 @@ const NavLink = ({ href, icon, label }) => {
   return (
     <Link
       to={href}
-      className={`flex gap-1 sm:gap-2 items-center rounded-full p-3 text-sm sm:text-xl  font-semibold ${
+      className={`flex gap-1 sm:gap-4 items-center rounded-full p-3 text-sm sm:text-xl  font-semibold ${
         isActive ? "bg-[#CCFBEF] text-text1" : "text-text2"
       }`}
     >
