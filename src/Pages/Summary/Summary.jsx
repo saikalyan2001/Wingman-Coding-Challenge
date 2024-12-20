@@ -10,7 +10,7 @@ import Orders from "../../Components/Orders/Orders";
 import ConsultationChart from "../../Components/Charts/Chart/Chart";
 import CustomBarChart from "../../Components/Charts/Barchart/Barchart";
 import Forecast from "../../Components/Charts/Forecast/Forecast";
-import DropdownMenu from "../../Components/DropDownMenu/DropDownMenu";
+import Dropdownmenu from "../../Components/DropdownMenu/DropdownMenu";
 
 const Summary = () => {
   return (
@@ -22,7 +22,7 @@ const Summary = () => {
           </h1>
 
           <div>
-            <DropdownMenu />
+            <Dropdownmenu />
           </div>
         </div>
 

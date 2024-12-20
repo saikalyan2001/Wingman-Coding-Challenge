@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const DropdownMenu = () => {
+const Dropdownmenu = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedOption, setSelectedOption] = useState("7 days");
 
@@ -67,4 +67,4 @@ const DropdownMenu = () => {
   );
 };
 
-export default DropdownMenu;
+export default Dropdownmenu;
